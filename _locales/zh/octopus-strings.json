@@ -36,5 +36,6 @@
     "Octopus.setLedRGB|block": "设置彩灯%led RGB值|R %red|G %green |B %blue|",
     "Octopus.setAllLedRGB|block": "设置所有彩灯RGB值|R %red|G %green|B %blue|",
     "Octopus.clearAllLeds|block": "关闭所有彩灯",
-    "Octopus.setLedsBrightness|block": "设置彩灯亮度|%level|"
+    "Octopus.setLedsBrightness|block": "设置彩灯亮度|%level|",
+    "Octopus.enableLedScreen|block": "打开led屏幕|%enable|"
   }

@@ -1,8 +1,6 @@
 
 //% color=#009ede icon="\uf2db"
-//% groups='["Servo","Motor","RGB LED"]'
-//% advanced=true
-//% weight=1
+//% groups='["Servo","Motor","RGB LED","Port"]'
 namespace Octopus {
     export enum Servo {
         //% block="S1"
@@ -204,4 +202,16 @@ namespace Octopus {
         neoStrip.setBrightness(pins.map(level, 0, 100, 0, 255));
         neoStrip.show();
     }
+
+    /**
+     * turn on/off microbit led screen to enable/disable some pins. 
+     * @param enable true to enable screen, false to disable
+    */
+    //% blockId=Octopus_enable_led_screen block="enable led screen|%enable|"
+    //% weight=40
+    //% group="Port"
+    export function enableLedScreen(enable : boolean): void {
+        led.enable(enable);
+   }
+
 }
