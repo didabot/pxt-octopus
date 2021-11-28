@@ -1,0 +1,24 @@
+{
+    "name": "octopus",
+    "version": "1.0.0",
+    "description": "MakeCode extension for didabot ocopus board",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "easybit.ts",
+        "pca9685.ts",
+        "octopus.ts",
+        "ws2812b.asm",
+        "ws2812b.ts",
+        "neopixel.ts",
+        "_locales/zh/octopus-strings.json"
+    ],
+    "testFiles": [
+        "tests.ts"
+    ],
+    "public": true,
+    "preferredEditor": "tsprj",
+    "installedVersion": "workspace:7c035382-0e98-4081-cc94-fd915880c822"
+}
